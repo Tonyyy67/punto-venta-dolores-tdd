@@ -5,7 +5,7 @@ Punto de venta para una nevería de Dolores Hidalgo, construido **paso a paso co
 | | |
 |---|---|
 | **Materia** | Desarrollo Móvil Integral · UTNG |
-| **Profesor** | Anastacio Rodríguez García |
+| **Profesor** | José de Jesús Eduardo Barrientos Avalos |
 | **Alumno** | Marco Antonio Rico Lopez |
 | **Fecha** | 12/11/2026 |
 
