@@ -1,0 +1,35 @@
+﻿00:00 +0: loading P:/punto_venta_dolores/test/dominio_test.dart
+test/dominio_test.dart:3:8: Error: Error when reading 'lib/dominio/producto.dart': The system cannot find 
+the file specified
+eba.ps1:5 char:17
+ 
+import 'package:punto_venta_dolores/dominio/producto.dart';
+       ^
+test/dominio_test.dart:30:24: Error: Method not found: 'Producto'.
+      const original = Producto(
+                       ^^^^^^^^
+test/dominio_test.dart:34:21: Error: Undefined name 'Producto'.
+      final copia = Producto.desdeMapa(original.aMapa());
+                    ^^^^^^^^
+test/dominio_test.dart:39:17: Error: Method not found: 'Producto'.
+      const p = Producto(codigo: 'A', nombre: 'X', precioCentavos: 100, existencias: 5);
+                ^^^^^^^^
+00:00 +0 -1: loading P:/punto_venta_dolores/test/dominio_test.dart [E]
+  Failed to load "P:/punto_venta_dolores/test/dominio_test.dart":
+  Compilation failed for testPath=P:/punto_venta_dolores/test/dominio_test.dart: test/dominio_test.dart:3:8: Error: Error when reading 'lib/dominio/producto.dart': The system cannot find the file specified
+  import 'package:punto_venta_dolores/dominio/producto.dart';
+         ^
+  test/dominio_test.dart:30:24: Error: Method not found: 'Producto'.
+        const original = Producto(
+                         ^^^^^^^^
+  test/dominio_test.dart:34:21: Error: Undefined name 'Producto'.
+        final copia = Producto.desdeMapa(original.aMapa());
+                      ^^^^^^^^
+  test/dominio_test.dart:39:17: Error: Method not found: 'Producto'.
+        const p = Producto(codigo: 'A', nombre: 'X', precioCentavos: 100, existencias: 5);
+                  ^^^^^^^^
+  .
+00:00 +0 -1: Some tests failed.
+
+Failing tests:
+  P:/punto_venta_dolores/test/dominio_test.dart: loading P:/punto_venta_dolores/test/dominio_test.dart

@@ -1,0 +1,26 @@
+﻿00:00 +0: loading P:/punto_venta_dolores/test/datos_test.dart
+00:00 +0: P:/punto_venta_dolores/test/datos_test.dart: guarda y busca producto
+00:00 +1: P:/punto_venta_dolores/test/datos_test.dart: código duplicado lanza excepción de dominio
+00:00 +2: P:/punto_venta_dolores/test/datos_test.dart: sembrarEjemplos carga el catálogo una sola vez
+00:00 +3: P:/punto_venta_dolores/test/datos_test.dart: reto: bajoInventario con límite por omisión (5)
+00:00 +4: P:/punto_venta_dolores/test/datos_test.dart: cobrar descuenta inventario y registra venta
+00:00 +5: P:/punto_venta_dolores/test/datos_test.dart: si falla el cobro NO se descuenta inventario
+00:00 +6: P:/punto_venta_dolores/test/datos_test.dart: corte del día suma ventas de hoy
+00:00 +7: P:/punto_venta_dolores/test/datos_test.dart: bajo inventario alerta
+00:00 +8: P:/punto_venta_dolores/test/datos_test.dart: reto: vender 5 nieves y luego 1 más lanza ExistenciasInsuficientes
+00:00 +9: loading P:/punto_venta_dolores/test/dominio_test.dart
+00:01 +9: P:/punto_venta_dolores/test/dominio_test.dart: Dinero formatea centavos
+00:01 +10: P:/punto_venta_dolores/test/dominio_test.dart: Dinero convierte texto a centavos
+00:01 +11: P:/punto_venta_dolores/test/dominio_test.dart: Dinero rechaza texto inválido
+00:01 +12: P:/punto_venta_dolores/test/dominio_test.dart: Dinero reto: ".5" son 50 centavos y negativos se formatean
+00:01 +13: P:/punto_venta_dolores/test/dominio_test.dart: Producto ida y vuelta a mapa conserva los datos
+00:01 +14: P:/punto_venta_dolores/test/dominio_test.dart: Producto copiarCon cambia solo lo indicado
+00:01 +15: P:/punto_venta_dolores/test/dominio_test.dart: Carrito suma cantidades del mismo producto
+00:01 +16: P:/punto_venta_dolores/test/dominio_test.dart: Carrito no excede existencias
+00:01 +17: P:/punto_venta_dolores/test/dominio_test.dart: Carrito desglosa IVA 16% del total
+00:01 +18: P:/punto_venta_dolores/test/dominio_test.dart: Carrito calcula cambio
+00:01 +19: P:/punto_venta_dolores/test/dominio_test.dart: Carrito pago insuficiente lanza
+00:01 +20: P:/punto_venta_dolores/test/dominio_test.dart: Carrito carrito vacío no cobra
+00:01 +21: P:/punto_venta_dolores/test/dominio_test.dart: Carrito reto: 10% de descuento sobre $100.00 deja $90.00 y recalcula IVA
+00:01 +22: P:/punto_venta_dolores/test/dominio_test.dart: Carrito reto: descuento fuera de 0-100 se rechaza
+00:01 +23: All tests passed!

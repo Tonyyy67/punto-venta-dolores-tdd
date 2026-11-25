@@ -1,0 +1,40 @@
+﻿00:00 +0: loading P:/punto_venta_dolores/test/dominio_test.dart
+test/dominio_test.dart:12:14: Error: Method not found: 'pesosACentavos'.
+eba.ps1:5 char:17
+ 
+      expect(pesosACentavos('12.5'), 1250);
+             ^^^^^^^^^^^^^^
+test/dominio_test.dart:13:14: Error: Method not found: 'pesosACentavos'.
+      expect(pesosACentavos('\$1,200'), 120000);
+             ^^^^^^^^^^^^^^
+test/dominio_test.dart:14:14: Error: Method not found: 'pesosACentavos'.
+      expect(pesosACentavos('0.07'), 7);
+             ^^^^^^^^^^^^^^
+test/dominio_test.dart:17:20: Error: Method not found: 'pesosACentavos'.
+      expect(() => pesosACentavos(''), throwsFormatException);
+                   ^^^^^^^^^^^^^^
+test/dominio_test.dart:18:20: Error: Method not found: 'pesosACentavos'.
+      expect(() => pesosACentavos('1.2.3'), throwsFormatException);
+                   ^^^^^^^^^^^^^^
+00:00 +0 -1: loading P:/punto_venta_dolores/test/dominio_test.dart [E]
+  Failed to load "P:/punto_venta_dolores/test/dominio_test.dart":
+  Compilation failed for testPath=P:/punto_venta_dolores/test/dominio_test.dart: test/dominio_test.dart:12:14: Error: Method not found: 'pesosACentavos'.
+        expect(pesosACentavos('12.5'), 1250);
+               ^^^^^^^^^^^^^^
+  test/dominio_test.dart:13:14: Error: Method not found: 'pesosACentavos'.
+        expect(pesosACentavos('\$1,200'), 120000);
+               ^^^^^^^^^^^^^^
+  test/dominio_test.dart:14:14: Error: Method not found: 'pesosACentavos'.
+        expect(pesosACentavos('0.07'), 7);
+               ^^^^^^^^^^^^^^
+  test/dominio_test.dart:17:20: Error: Method not found: 'pesosACentavos'.
+        expect(() => pesosACentavos(''), throwsFormatException);
+                     ^^^^^^^^^^^^^^
+  test/dominio_test.dart:18:20: Error: Method not found: 'pesosACentavos'.
+        expect(() => pesosACentavos('1.2.3'), throwsFormatException);
+                     ^^^^^^^^^^^^^^
+  .
+00:00 +0 -1: Some tests failed.
+
+Failing tests:
+  P:/punto_venta_dolores/test/dominio_test.dart: loading P:/punto_venta_dolores/test/dominio_test.dart

@@ -1,0 +1,35 @@
+﻿00:00 +0: loading P:/punto_venta_dolores/test/dominio_test.dart
+test/dominio_test.dart:2:8: Error: Error when reading 'lib/dominio/dinero.dart': The system cannot find the 
+file specified
+eba.ps1:5 char:17
+ 
+import 'package:punto_venta_dolores/dominio/dinero.dart';
+       ^
+test/dominio_test.dart:7:14: Error: Method not found: 'formatearPesos'.
+      expect(formatearPesos(0), '\$0.00');
+             ^^^^^^^^^^^^^^
+test/dominio_test.dart:8:14: Error: Method not found: 'formatearPesos'.
+      expect(formatearPesos(5), '\$0.05');
+             ^^^^^^^^^^^^^^
+test/dominio_test.dart:9:14: Error: Method not found: 'formatearPesos'.
+      expect(formatearPesos(123456), '\$1,234.56');
+             ^^^^^^^^^^^^^^
+00:00 +0 -1: loading P:/punto_venta_dolores/test/dominio_test.dart [E]
+  Failed to load "P:/punto_venta_dolores/test/dominio_test.dart":
+  Compilation failed for testPath=P:/punto_venta_dolores/test/dominio_test.dart: test/dominio_test.dart:2:8: Error: Error when reading 'lib/dominio/dinero.dart': The system cannot find the file specified
+  import 'package:punto_venta_dolores/dominio/dinero.dart';
+         ^
+  test/dominio_test.dart:7:14: Error: Method not found: 'formatearPesos'.
+        expect(formatearPesos(0), '\$0.00');
+               ^^^^^^^^^^^^^^
+  test/dominio_test.dart:8:14: Error: Method not found: 'formatearPesos'.
+        expect(formatearPesos(5), '\$0.05');
+               ^^^^^^^^^^^^^^
+  test/dominio_test.dart:9:14: Error: Method not found: 'formatearPesos'.
+        expect(formatearPesos(123456), '\$1,234.56');
+               ^^^^^^^^^^^^^^
+  .
+00:00 +0 -1: Some tests failed.
+
+Failing tests:
+  P:/punto_venta_dolores/test/dominio_test.dart: loading P:/punto_venta_dolores/test/dominio_test.dart

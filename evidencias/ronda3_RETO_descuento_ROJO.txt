@@ -1,0 +1,50 @@
+﻿00:00 +0: loading P:/punto_venta_dolores/test/dominio_test.dart
+test/dominio_test.dart:82:9: Error: The method 'aplicarDescuento' isn't defined for the type 'Carrito'.
+eba.ps1:5 char:17
+ 
+ - 'Carrito' is from 'package:punto_venta_dolores/dominio/carrito.dart' ('lib/dominio/carrito.dart').
+Try correcting the name to the name of an existing method, or defining a method named 'aplicarDescuento'.
+      c.aplicarDescuento(10);
+        ^^^^^^^^^^^^^^^^
+test/dominio_test.dart:84:16: Error: The getter 'descuentoCentavos' isn't defined for the type 'Carrito'.
+ - 'Carrito' is from 'package:punto_venta_dolores/dominio/carrito.dart' ('lib/dominio/carrito.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'descuentoCentavos'.
+      expect(c.descuentoCentavos, 1000);
+               ^^^^^^^^^^^^^^^^^
+test/dominio_test.dart:90:22: Error: The method 'aplicarDescuento' isn't defined for the type 'Carrito'.
+ - 'Carrito' is from 'package:punto_venta_dolores/dominio/carrito.dart' ('lib/dominio/carrito.dart').
+Try correcting the name to the name of an existing method, or defining a method named 'aplicarDescuento'.
+      expect(() => c.aplicarDescuento(-5), throwsArgumentError);
+                     ^^^^^^^^^^^^^^^^
+test/dominio_test.dart:91:22: Error: The method 'aplicarDescuento' isn't defined for the type 'Carrito'.
+ - 'Carrito' is from 'package:punto_venta_dolores/dominio/carrito.dart' ('lib/dominio/carrito.dart').
+Try correcting the name to the name of an existing method, or defining a method named 'aplicarDescuento'.
+      expect(() => c.aplicarDescuento(101), throwsArgumentError);
+                     ^^^^^^^^^^^^^^^^
+00:00 +0 -1: loading P:/punto_venta_dolores/test/dominio_test.dart [E]
+  Failed to load "P:/punto_venta_dolores/test/dominio_test.dart":
+  Compilation failed for testPath=P:/punto_venta_dolores/test/dominio_test.dart: test/dominio_test.dart:82:9: Error: The method 'aplicarDescuento' isn't defined for the type 'Carrito'.
+   - 'Carrito' is from 'package:punto_venta_dolores/dominio/carrito.dart' ('lib/dominio/carrito.dart').
+  Try correcting the name to the name of an existing method, or defining a method named 'aplicarDescuento'.
+        c.aplicarDescuento(10);
+          ^^^^^^^^^^^^^^^^
+  test/dominio_test.dart:84:16: Error: The getter 'descuentoCentavos' isn't defined for the type 'Carrito'.
+   - 'Carrito' is from 'package:punto_venta_dolores/dominio/carrito.dart' ('lib/dominio/carrito.dart').
+  Try correcting the name to the name of an existing getter, or defining a getter or field named 'descuentoCentavos'.
+        expect(c.descuentoCentavos, 1000);
+                 ^^^^^^^^^^^^^^^^^
+  test/dominio_test.dart:90:22: Error: The method 'aplicarDescuento' isn't defined for the type 'Carrito'.
+   - 'Carrito' is from 'package:punto_venta_dolores/dominio/carrito.dart' ('lib/dominio/carrito.dart').
+  Try correcting the name to the name of an existing method, or defining a method named 'aplicarDescuento'.
+        expect(() => c.aplicarDescuento(-5), throwsArgumentError);
+                       ^^^^^^^^^^^^^^^^
+  test/dominio_test.dart:91:22: Error: The method 'aplicarDescuento' isn't defined for the type 'Carrito'.
+   - 'Carrito' is from 'package:punto_venta_dolores/dominio/carrito.dart' ('lib/dominio/carrito.dart').
+  Try correcting the name to the name of an existing method, or defining a method named 'aplicarDescuento'.
+        expect(() => c.aplicarDescuento(101), throwsArgumentError);
+                       ^^^^^^^^^^^^^^^^
+  .
+00:00 +0 -1: Some tests failed.
+
+Failing tests:
+  P:/punto_venta_dolores/test/dominio_test.dart: loading P:/punto_venta_dolores/test/dominio_test.dart

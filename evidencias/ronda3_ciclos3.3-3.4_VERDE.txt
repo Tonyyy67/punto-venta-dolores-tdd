@@ -1,0 +1,14 @@
+﻿00:00 +0: loading P:/punto_venta_dolores/test/dominio_test.dart
+00:00 +0: Dinero formatea centavos
+00:00 +1: Dinero convierte texto a centavos
+00:00 +2: Dinero rechaza texto inválido
+00:00 +3: Dinero reto: ".5" son 50 centavos y negativos se formatean
+00:00 +4: Producto ida y vuelta a mapa conserva los datos
+00:00 +5: Producto copiarCon cambia solo lo indicado
+00:00 +6: Carrito suma cantidades del mismo producto
+00:00 +7: Carrito no excede existencias
+00:00 +8: Carrito desglosa IVA 16% del total
+00:00 +9: Carrito calcula cambio
+00:00 +10: Carrito pago insuficiente lanza
+00:00 +11: Carrito carrito vacío no cobra
+00:00 +12: All tests passed!

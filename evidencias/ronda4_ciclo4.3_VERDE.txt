@@ -1,0 +1,4 @@
+﻿00:00 +0: loading P:/punto_venta_dolores/test/datos_test.dart
+00:00 +0: guarda y busca producto
+00:00 +1: código duplicado lanza excepción de dominio
+00:00 +2: All tests passed!

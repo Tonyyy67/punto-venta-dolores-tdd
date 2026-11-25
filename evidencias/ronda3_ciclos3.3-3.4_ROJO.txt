@@ -1,0 +1,70 @@
+﻿00:00 +0: loading P:/punto_venta_dolores/test/dominio_test.dart
+test/dominio_test.dart:65:16: Error: The getter 'ivaCentavos' isn't defined for the type 'Carrito'.
+eba.ps1:5 char:17
+ 
+ - 'Carrito' is from 'package:punto_venta_dolores/dominio/carrito.dart' ('lib/dominio/carrito.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'ivaCentavos'.
+      expect(c.ivaCentavos, 1379);
+               ^^^^^^^^^^^
+test/dominio_test.dart:66:16: Error: The getter 'subtotalCentavos' isn't defined for the type 'Carrito'.
+ - 'Carrito' is from 'package:punto_venta_dolores/dominio/carrito.dart' ('lib/dominio/carrito.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'subtotalCentavos'.
+      expect(c.subtotalCentavos + c.ivaCentavos, c.totalCentavos);
+               ^^^^^^^^^^^^^^^^
+test/dominio_test.dart:66:37: Error: The getter 'ivaCentavos' isn't defined for the type 'Carrito'.
+ - 'Carrito' is from 'package:punto_venta_dolores/dominio/carrito.dart' ('lib/dominio/carrito.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'ivaCentavos'.
+      expect(c.subtotalCentavos + c.ivaCentavos, c.totalCentavos);
+                                    ^^^^^^^^^^^
+test/dominio_test.dart:70:16: Error: The method 'cambio' isn't defined for the type 'Carrito'.
+ - 'Carrito' is from 'package:punto_venta_dolores/dominio/carrito.dart' ('lib/dominio/carrito.dart').
+Try correcting the name to the name of an existing method, or defining a method named 'cambio'.
+      expect(c.cambio(5000), 2500);
+               ^^^^^^
+test/dominio_test.dart:74:22: Error: The method 'cambio' isn't defined for the type 'Carrito'.
+ - 'Carrito' is from 'package:punto_venta_dolores/dominio/carrito.dart' ('lib/dominio/carrito.dart').
+Try correcting the name to the name of an existing method, or defining a method named 'cambio'.
+      expect(() => c.cambio(1000), throwsA(isA<PagoInsuficienteException>()));
+                     ^^^^^^
+test/dominio_test.dart:77:30: Error: The method 'cambio' isn't defined for the type 'Carrito'.
+ - 'Carrito' is from 'package:punto_venta_dolores/dominio/carrito.dart' ('lib/dominio/carrito.dart').
+Try correcting the name to the name of an existing method, or defining a method named 'cambio'.
+      expect(() => Carrito().cambio(100), throwsA(isA<CarritoVacioException>()));
+                             ^^^^^^
+00:00 +0 -1: loading P:/punto_venta_dolores/test/dominio_test.dart [E]
+  Failed to load "P:/punto_venta_dolores/test/dominio_test.dart":
+  Compilation failed for testPath=P:/punto_venta_dolores/test/dominio_test.dart: test/dominio_test.dart:65:16: Error: The getter 'ivaCentavos' isn't defined for the type 'Carrito'.
+   - 'Carrito' is from 'package:punto_venta_dolores/dominio/carrito.dart' ('lib/dominio/carrito.dart').
+  Try correcting the name to the name of an existing getter, or defining a getter or field named 'ivaCentavos'.
+        expect(c.ivaCentavos, 1379);
+                 ^^^^^^^^^^^
+  test/dominio_test.dart:66:16: Error: The getter 'subtotalCentavos' isn't defined for the type 'Carrito'.
+   - 'Carrito' is from 'package:punto_venta_dolores/dominio/carrito.dart' ('lib/dominio/carrito.dart').
+  Try correcting the name to the name of an existing getter, or defining a getter or field named 'subtotalCentavos'.
+        expect(c.subtotalCentavos + c.ivaCentavos, c.totalCentavos);
+                 ^^^^^^^^^^^^^^^^
+  test/dominio_test.dart:66:37: Error: The getter 'ivaCentavos' isn't defined for the type 'Carrito'.
+   - 'Carrito' is from 'package:punto_venta_dolores/dominio/carrito.dart' ('lib/dominio/carrito.dart').
+  Try correcting the name to the name of an existing getter, or defining a getter or field named 'ivaCentavos'.
+        expect(c.subtotalCentavos + c.ivaCentavos, c.totalCentavos);
+                                      ^^^^^^^^^^^
+  test/dominio_test.dart:70:16: Error: The method 'cambio' isn't defined for the type 'Carrito'.
+   - 'Carrito' is from 'package:punto_venta_dolores/dominio/carrito.dart' ('lib/dominio/carrito.dart').
+  Try correcting the name to the name of an existing method, or defining a method named 'cambio'.
+        expect(c.cambio(5000), 2500);
+                 ^^^^^^
+  test/dominio_test.dart:74:22: Error: The method 'cambio' isn't defined for the type 'Carrito'.
+   - 'Carrito' is from 'package:punto_venta_dolores/dominio/carrito.dart' ('lib/dominio/carrito.dart').
+  Try correcting the name to the name of an existing method, or defining a method named 'cambio'.
+        expect(() => c.cambio(1000), throwsA(isA<PagoInsuficienteException>()));
+                       ^^^^^^
+  test/dominio_test.dart:77:30: Error: The method 'cambio' isn't defined for the type 'Carrito'.
+   - 'Carrito' is from 'package:punto_venta_dolores/dominio/carrito.dart' ('lib/dominio/carrito.dart').
+  Try correcting the name to the name of an existing method, or defining a method named 'cambio'.
+        expect(() => Carrito().cambio(100), throwsA(isA<CarritoVacioException>()));
+                               ^^^^^^
+  .
+00:00 +0 -1: Some tests failed.
+
+Failing tests:
+  P:/punto_venta_dolores/test/dominio_test.dart: loading P:/punto_venta_dolores/test/dominio_test.dart

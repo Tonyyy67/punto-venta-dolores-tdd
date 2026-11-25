@@ -1,0 +1,11 @@
+﻿00:00 +0: loading P:/punto_venta_dolores/test/datos_test.dart
+00:00 +0: guarda y busca producto
+00:00 +1: código duplicado lanza excepción de dominio
+00:00 +2: sembrarEjemplos carga el catálogo una sola vez
+00:00 +3: reto: bajoInventario con límite por omisión (5)
+00:00 +4: cobrar descuenta inventario y registra venta
+00:00 +5: si falla el cobro NO se descuenta inventario
+00:00 +6: corte del día suma ventas de hoy
+00:00 +7: bajo inventario alerta
+00:00 +8: reto: vender 5 nieves y luego 1 más lanza ExistenciasInsuficientes
+00:00 +9: All tests passed!

@@ -1,0 +1,3 @@
+﻿00:00 +0: loading P:/punto_venta_dolores/test/dominio_test.dart
+00:00 +0: Dinero formatea centavos
+00:00 +1: All tests passed!
